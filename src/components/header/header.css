@@ -1,0 +1,49 @@
+header{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    min-width: 320px;
+}
+
+.header__left{
+    width: 50%;
+}
+
+.header__left img{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+}
+
+.header__right{
+    width: 50%;
+    position: relative;
+}
+
+.header__right img{
+    position: absolute;
+    top: 1rem;
+    width: 3.7rem;
+    height: 3.7rem;
+    right: 1.6rem;
+
+    animation: moverCampanita 0.5s ease-in-out forwards;
+}
+
+@keyframes moverCampanita {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.header__right--links a{
+    display: none;
+}

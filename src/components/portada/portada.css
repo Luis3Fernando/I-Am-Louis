@@ -1,0 +1,46 @@
+.portada{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.portada .imagen{
+    position: absolute;
+    height: 100%;
+    right: -27rem;
+}
+
+.portada__enlace{
+    position: absolute;
+    background-color: #aa2328;
+    width: 100%;
+    height: 50%;
+    opacity: 0.85;
+    left: 5rem;
+    top: 43%;
+}
+
+.portada__enlace button{
+    border: none;
+    background-color: black;
+    width: 7rem;
+    opacity: 1;
+}
+
+.portada__info{
+    position: absolute;
+    top: 17%;
+    left: 10rem;
+    height:7.5rem;
+    width: 10rem;
+    padding: 10px;
+    transform: rotate(-270deg);
+    transform-origin: top left;
+}
+
+.portada__info p{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+

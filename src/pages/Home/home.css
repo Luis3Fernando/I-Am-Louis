@@ -1,0 +1,35 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title__container{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.title__container .title{
+    font-size: 3.5rem;
+}
+
+.title__container .title--secondary{
+    font-size: 5.1rem;
+    margin-top: -2.5rem;
+}
+
+.portada__main{
+    position: relative;
+    flex: 2;
+    width: 100%;
+    height: auto;
+    margin-top: -8rem;
+}
+
+.comentario{
+    display: none;
+}
+
+.accounts{
+    display: none;
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;500;600&display=swap');
+
+:root{
+    ---color-primary: #88242d;
+    ---color-black: #242527;
+    ---color-black-2: #151412;
+}
+
+html{
+    font-size: 62.5%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+    background-color: #f1f1f1;
+    font-size: 1rem;
+}

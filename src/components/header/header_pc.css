@@ -1,0 +1,39 @@
+
+
+.header__right{
+    display: flex;
+    flex-direction: row;
+}
+    
+.header__right img{
+    transition: transform 0.3s ease; 
+}
+
+.header__right img:hover{
+    transform: scale(1.2);
+}
+
+.header__right--links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    height: 100%;
+    right: 15rem;
+    top: 0.8rem;
+}
+
+.header__right--links a{
+    display: inline !important; 
+    margin:0 7%;
+    font-size: 14px;
+    color: #151412;
+    text-decoration: none;
+
+    transition: transform 0.3s ease; 
+}
+
+.header__right--links a:hover{
+    transform: scale(1.3);
+}
